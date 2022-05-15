@@ -1,0 +1,366 @@
+
+
+
+
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  
+  /* Style the label to display next to the inputs */
+  .col-25 label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  /* Style the submit button */
+ input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  /* Style the container */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-left: 20px;
+  }
+  .header{
+    padding: 0 ;
+    margin: auto ;
+    text-align: center ;
+
+  }
+  .sl_date{
+    width: 80%;
+    height: 40px;
+    margin: auto;
+  }
+  .sl{
+    padding: o;
+    float: left;
+  }
+  .sl_l{
+    padding: o;
+    float: left;
+  }
+  .sl_fill{
+    padding: o;
+    float: left;
+  
+  }
+  
+  .date{
+    padding: o;
+    float: right;
+  }
+  .date_l{
+    padding: o;
+    float: left;
+  }
+  .date_fill{
+    padding: o;
+    float: left;
+  }
+  .date_fill input{
+    border: 0;
+    background-color: #f2f2f2;
+  }
+
+  
+  /* Floating column for labels: 25% width */
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 10px;
+  }
+  
+  /* Floating column for inputs: 75% width */
+  .col-75 {
+    float: left;
+    width: 50%;
+    margin-top: 10px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+
+
+  /* //////////////////////////// view//////////////////////////////////////// */
+
+  body{
+    margin: 0;
+    padding: 0;
+    font: 400 .875rem 'Open Sans', sans-serif;
+    color: #bcd0f7;
+    background: #1A233A;
+    position: relative;
+    height: 100%;
+}
+.invoice-container {
+    padding: 1rem;
+}
+.invoice-container .invoice-header .invoice-logo {
+    margin: 0.8rem 0 0 0;
+    display: inline-block;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #bcd0f7;
+}
+.invoice-container .invoice-header .invoice-logo img {
+    max-width: 130px;
+}
+.invoice-container .invoice-header address {
+    font-size: 0.8rem;
+    color: #8a99b5;
+    margin: 0;
+}
+.invoice-container .invoice-details {
+    margin: 1rem 0 0 0;
+    padding: 1rem;
+    line-height: 180%;
+    height: 150px;
+    color: #000000;
+    /* background: #1a233a; */
+}
+.invoice-container .invoice-details address{
+  color: #000000;
+}
+.invoice-container .invoice-details .invoice-num {
+    text-align: right;
+    font-size: 0.8rem;
+   
+   
+}
+.invoice-container .invoice-body {
+    padding: 1rem 0 0 0;
+}
+.invoice-container .invoice-footer {
+    text-align: center;
+    font-size: 0.7rem;
+    margin: 5px 0 0 0;
+}
+
+.invoice-status {
+    text-align: center;
+    padding: 1rem;
+    background: #272e48;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+.invoice-status h2.status {
+    margin: 0 0 0.8rem 0;
+}
+.invoice-status h5.status-title {
+    margin: 0 0 0.8rem 0;
+    color: #8a99b5;
+}
+.invoice-status p.status-type {
+    margin: 0.5rem 0 0 0;
+    padding: 0;
+    line-height: 150%;
+}
+.invoice-status i {
+    font-size: 1.5rem;
+    margin: 0 0 1rem 0;
+    display: inline-block;
+    padding: 1rem;
+    background: #1a233a;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+}
+.invoice-status .badge {
+    text-transform: uppercase;
+}
+
+@media (max-width: 767px) {
+    .invoice-container {
+        padding: 1rem;
+    }
+}
+
+.card {
+    background: #272E48;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 0;
+    margin-bottom: 1rem;
+}
+
+
+.table {
+    background: #f8f9fa;
+    color: #000207;
+    font-size: .75rem;
+}
+.text-success {
+    color: #c0d64a !important;
+}
+.custom-actions-btns {
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+.custom-actions-btns .btn {
+    margin: .3rem 0 .3rem .3rem;
+}
+
+
+
+
+
+
+
+/* ///////////////// Login///////////////////////// */
+
+
+
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 15%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+
