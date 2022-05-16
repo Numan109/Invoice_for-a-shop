@@ -59,6 +59,9 @@ $getData = $data->fetch_assoc();
                                 <div class="row gutters">
                                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                                         <div class="custom-actions-btns mb-5">
+                                        <a href="index.php" class="btn btn-primary">
+                                                <i class="icon-download"></i> Back
+                                            </a>
                                             <a href="#" class="btn btn-primary">
                                                 <i class="icon-download"></i> Download
                                             </a>
@@ -130,11 +133,11 @@ $getData = $data->fetch_assoc();
                                                         </td>
                                                         <td>
                                                             <p>
-                                                                $5000.00<br>
-                                                                $100.00<br>
-                                                                $49.00<br>
+                                                            <?php echo $getData['rate'] ?><br>
+                                                                00<br>
+                                                               00<br>
                                                             </p>
-                                                            <h5 class="text-success"><strong>$5150.99</strong></h5>
+                                                            <h5 class="text-success"><strong><?php echo $getData['rate'] ?></strong></h5>
                                                         </td>
                                                     </tr>
                                                 </tbody>

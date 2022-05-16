@@ -20,8 +20,11 @@ include 'include_file/header.php';
       <section class="content-header">
         <div class="container-fluid">
           <div class="row mb-2">
-            <div class="col-sm-6">
-              <h1>Blank Page</h1>
+            <div class="col">
+              <h3>Home:</h3>
+            </div>
+            <div class="col col-lg-2" >
+              <h3> <a href="registration.php">Registration</a> </h3>
             </div>
 
           </div>
@@ -50,7 +53,7 @@ include 'include_file/header.php';
           </div>
           <!-- /.card-body -->
           <div class="card-footer">
-            Footer <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>numan
+            Footer <br><br><br>numan
           </div>
           <!-- /.card-footer-->
         </div>

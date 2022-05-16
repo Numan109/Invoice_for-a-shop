@@ -104,10 +104,21 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 						</div>
 						<input name="re_password" id="re_password" class="form-control" placeholder="Repeat password" type="password">
 					</div> <!-- form-group// -->
-					<div class="form-group">
+
+					<div class="row mb-2">
+            <div class="col col-lg-6">
+			<div class="form-group">
 						<button type="submit" class="btn btn-primary btn-block"> Create Account </button>
 					</div> <!-- form-group// -->
-					<p class="text-center">Have an account? <a href="">Log In</a> </p>
+            </div>
+            <div class="col col-lg-7" >
+			<p><b>Have an account? <a href="login.php">Log In</a> </p>
+            </div>
+
+          </div>
+
+					
+					
 			</form>
 		</article>
 	</div> <!-- card.// -->
